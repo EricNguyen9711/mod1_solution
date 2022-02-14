@@ -35,6 +35,7 @@ angular.module('LunchCheck', [])
 
     $scope.reset = function() {
       $scope.list = "";
+      $scope.message = ""
     }
   }
 
